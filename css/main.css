@@ -1,0 +1,65 @@
+body {
+  background-image: linear-gradient(135deg, #a8e6cf, #dcedc1);
+  height: 100vh;
+  color: black;
+  margin: 0;
+  padding: 0;
+  padding-top: 50px;
+}
+
+.container {
+  max-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: -2px 6px 18px 3px rgba(0, 0, 0, 0.75);
+  padding: 50px;
+}
+
+.players {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.dice {
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: #ffd3b6;
+  margin: 0 auto;
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  color: #fff;
+  padding: 20px 30px;
+  font-size: 20px;
+  margin-top: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#rollBtn {
+  background-color: #ff8b94;
+}
+
+#resetBtn {
+  background-color: #ffaaa5;
+}
+
+button:focus {
+  outline: none;
+}
+
+#resetBtn {
+  display: none;
+}
+
+.active {
+  box-shadow: -2px 6px 18px 3px rgba(0, 0, 0, 0.75);
+}
